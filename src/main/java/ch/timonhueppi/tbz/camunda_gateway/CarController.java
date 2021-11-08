@@ -67,7 +67,7 @@ public class CarController {
         task = WebProvider.getTaskOfProcessInstance(task.getProcessInstanceId());
         return task.getId();
     }
-
+/*
     @PostMapping("/car/{id}/sell")
     public String sellCar(@PathVariable(value = "id") String id, @RequestBody String buyerInfo) {
         return id;
@@ -81,5 +81,5 @@ public class CarController {
     @DeleteMapping("/car/{id}")
     public String wreckCar(@PathVariable(value = "id") String id){
         return id;
-    }
+    }*/
 }
